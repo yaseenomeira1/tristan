@@ -3,6 +3,26 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-  .name{
-    color: red;
+body{
+  height: 100vh;
+}
+.subtitle{
+  display: flex;
+  justify-content: space-around;
+}
+.subtitle-name{
+  letter-spacing: 2px;
+}
+.name{
+  text-align: center;
+  letter-spacing: 1.5px;
+  position: relative;
+  animation: test 5s infinite;
+}
+
+@keyframes test {
+  0% {left: 0px;}
+  25% {left: 200px;}
+  75% {left: -200px;}
+  100% {left: 0px;}
 }
